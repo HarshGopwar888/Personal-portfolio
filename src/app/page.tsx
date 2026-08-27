@@ -173,18 +173,22 @@ className="mx-auto aspect-square overflow-hidden object-cover object-[center_30%
                 <CardFooter>
                   <div className="flex space-x-3">
                     <Link
-                      href={project.live_url}
-                      prefetch={false}
-                    >
+  href={project.live_url}
+  target="_blank"
+  rel="noopener noreferrer"
+  prefetch={false}
+>
                       <Button size="sm">
                         <GlobeIcon className="h-3 w-3 mr-2" />
                         Live Demo
                       </Button>
                     </Link>
-                    <Link
-                      href={project.code_repo_url}
-                      prefetch={false}
-                    >
+                   <Link
+  href={project.code_repo_url}
+  target="_blank"
+  rel="noopener noreferrer"
+  prefetch={false}
+>
                       <Button size="sm" variant="outline">
                         <GitHubLogoIcon className="h-3 w-3 mr-2" />
                         Open Repository
