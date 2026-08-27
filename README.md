@@ -1,138 +1,133 @@
 
+### 💼 Personal Portfolio
 
-### 🎓 E-Learning Website
+For your portfolio README, I'd make it more technical because it represents **you as a developer**:
 
 ```markdown
-# 🎓 E-Learning – Online Learning Platform
+# 💼 Harsh Gopwar – Personal Portfolio
 
-A modern and responsive e-learning platform designed to provide students with an intuitive environment for discovering courses, registering for learning programs, and interacting with an online education ecosystem.
+A modern, responsive developer portfolio built to showcase my technical skills, projects, education, experience, and full-stack development capabilities.
 
-## 🌐 Live Demo
+## 🌐 Live Website
+
+YOUR_VERCEL_URL
+
+## 📂 Repository
+
+https://github.com/HarshGopwar888/Personal-portfolio
+
+---
+
+## 👨‍💻 About
+
+I am **Harsh Gopwar**, a developer focused on building modern, responsive, and user-friendly web applications.
+
+My development interests include frontend engineering, backend development, REST APIs, databases, authentication, responsive UI/UX, and cloud deployment.
+
+---
+
+## 🚀 Featured Projects
+
+### 🍽️ Daawat – Food Ordering Platform
+
+Restaurant platform featuring menu browsing, authentication workflow, cart management, customer information, and order placement.
+
+https://daawat-food-website.vercel.app
+
+### 🏨 Heritage Hotel
+
+Responsive hotel website featuring rooms, services, facilities, gallery, and booking-oriented workflows.
+
+https://heritage-hotel-website.vercel.app
+
+### 🎓 E-Learning Platform
+
+Online learning platform featuring course discovery, registration, login, and enrollment workflows.
 
 https://e-learning-website-bay.vercel.app
 
-## 📂 GitHub Repository
-
-https://github.com/HarshGopwar888/E-Learning-website
-
 ---
 
-## ✨ Features
-
-### Student Features
-
-- Course browsing
-- Course categories
-- Course details
-- Instructor information
-- Student registration
-- Student login
-- User profile
-- Course enrollment
-- Learning interface
-- Responsive navigation
-- Form validation
-
-### Platform Features
-
-- Responsive UI
-- Interactive components
-- Authentication workflow
-- Enrollment workflow
-- Dynamic content
-- Client-side state management
-- Mobile-friendly design
-
----
-
-## 🛠️ Technology Stack
+## 🛠️ Technical Skills
 
 ### Frontend
 
 - HTML5
 - CSS3
-- JavaScript
+- JavaScript ES6+
+- TypeScript
+- React.js
+- Next.js
 - Bootstrap
-- Font Awesome
+- Tailwind CSS
 - Responsive Web Design
-- DOM Manipulation
-- Client-Side Validation
 
-### Backend Technologies
-
-The platform can be extended with:
+### Backend
 
 - Node.js
 - Express.js
 - RESTful APIs
-- Authentication APIs
-- Course Management APIs
-- Enrollment APIs
-- Student Management APIs
+- API Integration
+- Authentication
+- Authorization
+- Server-side validation
 
-### Database
-
-Potential database technologies:
+### Databases
 
 - MongoDB
 - MySQL
 - MongoDB Atlas
-
-Database entities can include:
-
-- Users
-- Students
-- Instructors
-- Courses
-- Categories
-- Enrollments
-- Lessons
-- Progress
-- Certificates
+- Database Design
+- CRUD Operations
 
 ### Authentication & Security
 
-- Registration
-- Login
+- JWT
 - Password Hashing
-- JWT Authentication
 - Protected Routes
-- Role-Based Authorization
+- Role-Based Access Control
 - Input Validation
+- Secure API Design
 
-### Development Tools
+### DevOps & Deployment
 
 - Git
 - GitHub
-- Visual Studio Code
-- npm
-- Chrome DevTools
-
-### Deployment
-
 - Vercel
-- GitHub
-- Git-based CI/CD
+- npm
+- CI/CD Concepts
+- Version Control
+- Environment Variables
+
+### Development Tools
+
+- Visual Studio Code
+- Chrome DevTools
+- Git CLI
+- npm
 
 ---
 
-## 🔌 REST API Architecture
+## 🧩 Development Concepts
 
-Example API structure:
+- Component-Based Architecture
+- REST API Architecture
+- CRUD Operations
+- Authentication & Authorization
+- Database Modeling
+- Responsive UI/UX
+- Form Validation
+- State Management
+- API Integration
+- Error Handling
+- Version Control
+- Cloud Deployment
 
-```text
-POST   /api/auth/register
-POST   /api/auth/login
+---
 
-GET    /api/courses
-GET    /api/courses/:id
+## 🚀 Local Development
 
-POST   /api/enrollments
-GET    /api/enrollments
-GET    /api/enrollments/:id
+Clone the repository:
 
-GET    /api/users/profile
-PUT    /api/users/profile
-
-GET    /api/progress/:courseId
-PUT    /api/progress/:courseId
+```bash
+git clone https://github.com/HarshGopwar888/Personal-portfolio.git
