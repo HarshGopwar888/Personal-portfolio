@@ -1,0 +1,225 @@
+{
+  "visual": {
+    "navbar": {
+      "links": [
+        {
+          "label": "Experience",
+          "path": "#experience"
+        },
+        {
+          "label": "Projects",
+          "path": "#projects"
+        },
+        {
+          "label": "Education",
+          "path": "#education"
+        },
+       
+        {
+          "label": "Skills",
+          "path": "#skills"
+        },
+        {
+          "label": "Contact",
+          "path": "#Contact"
+        }
+         
+      ]
+    },
+    "home": {
+      "sections": {
+        "banner": true,
+        "experience": true,
+        "project": true,
+        "education": true,
+        "testimonial": true
+      }
+    }
+  },
+  "personalInfo": {
+    "name": "Harsh Gopwar",
+    "title": "Full Stack Developer",
+    "location": "Pune, India",
+    "bio": "I am a passionate full-stack developer with a strong background in building modern, scalable web applications. Lets collaborate andbring your ideas to life."
+  },
+ "contactInfo": {
+  "email": "coder.harsh45@gmail.com",
+  "phone": "8888517106",
+  "linkedin": "https://www.linkedin.com/in/harsh-gopwar45",
+  "github": "https://github.com/HarshGopwar888",
+  "twitter": "https://x.com/Harsh8x8",
+  "website": "#!"
+},
+  "skills": {
+    "languages": [
+      "JavaScript",
+      "Python",
+      "Java",
+      "C++",
+      "Typescript",
+      "C",
+      "C#"
+    ],
+    "frameworks": [
+      "React",
+      "Node.js",
+      "Express",
+      "Django",
+      "Spring Boot"
+    ],
+    "databases": [
+      "MySQL",
+      "MongoDB",
+      "PostgreSQL"
+    ],
+    "tools": [
+      "Git",
+      "Jira",
+      "Jira",
+      "Jenkins",
+      "Docker",
+      "Kubernetes",
+      "Jenkins",
+      "AWS",
+      "GCP"
+    ]
+  },
+  "projects": [
+    {
+      "id": "1",
+      "title": "Daawat — Restaurant & Food Ordering Platform",
+      "description": "A responsive restaurant website designed to provide a complete online food-ordering experience. Users can browse the menu, register or log in, add food items to their cart, manage quantities, enter delivery details, and place orders through a frontend-based ordering workflow.",
+      "technologies": [
+         "HTML",
+    "CSS",
+    "JavaScript",
+    "Java",
+    "Bootstrap",
+    "Node.js",
+    "Spring Boot",
+    "MySQL",
+    "REST APIs",
+    "Git",
+    "GitHub"
+      ],
+      "live_url": "https://daawat-food-website.vercel.app",
+      "code_repo_url": "https://github.com/HarshGopwar888/Daawat-Food-Website",
+      "cover": "/assets/project_1.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Cultural Heritage - Historical Destination Website",
+      "description": "A modern and responsive cultural heritage website designed to showcase historical destinations, cultural attractions, and heritage experiences. The website focuses on clean navigation, engaging visual presentation, responsive layouts, and an intuitive user experience across desktop and mobile devices.",
+      "technologies": [
+        "HTML",
+    "CSS",
+    "Java",
+    "JavaScript",
+    "Bootstrap",
+    "React.js",
+    "Node.js",
+    "Spring Boot",
+    "MySQL",
+    "Responsive Web Design",
+    "UI/UX Design",
+    "Git",
+    "GitHub"
+      ],
+      "live_url": "https://heritage-hotel-website.vercel.app",
+      "code_repo_url": "https://github.com/HarshGopwar888/Heritage-Hotel-Website",
+      "cover": "/assets/project_2.jpg"
+    },
+    {
+      "id": "3",
+      "title": "ELearning — Online Learning Platform",
+      "description": "A responsive e-learning platform designed to provide users with an organized and engaging online learning experience. The website includes course browsing, course information, user authentication pages, registration, and a structured interface for accessing educational content.",
+      "technologies": [
+        "HTML",
+     "HTML5",
+    "CSS3",
+    "Java",
+    "JavaScript",
+    "JQuery",
+    "Bootstrap",
+    "Responsive Design",
+    "Frontend Development",
+    "Git",
+    "GitHub"
+      ],
+      "live_url": "https://e-learning-website-bay.vercel.app",
+      "code_repo_url": "https://github.com/HarshGopwar888/E-Learning-website",
+      "cover": "/assets/project_3.jpg"
+    }
+  ],
+  "workExperience": [
+    {
+      "id": "1",
+      "company": "Holograph Technology & Consulting Pune",
+      "companyWebsite": "#!",
+      "role": "Junior Full Stack Developer",
+      "startDate": "Nov 2025",
+      "endDate": "Feb 2026",
+      "technologies": [
+        "Java",
+        "Node.js",
+        "Spring-Boot",
+        "React.JS",
+        "MySQL",
+        "Jira",
+        "JavaScript",
+        "JSM"
+      ],
+      "keyResponsibilities": [
+        "Led a team of developers to create scalable web applications.",
+        "Implemented RESTful and GraphQL APIs using Node.js and Express.",
+        "Developed front-end applications using React and Next.js.",
+        "Integrated third-party services and APIs to enhance application functionality.",
+        "Mentored junior developers and conducted code reviews."
+      ]
+    },
+    {
+      "id": "2",
+      "company": "Kinetic Electricals Pune",
+      "companyWebsite": "#!",
+      "role": "PCB Designer",
+      "startDate": "Dec 2023",
+      "endDate": "May 2024",
+      "technologies": [
+        "EDA/CAD Software",
+        "Schematic Design",
+        "THT Technology",
+        "Flying Probe Testing"
+      ],
+     "keyResponsibilities": [
+  "Designed and developed PCB layouts based on circuit schematics and design requirements.",
+  "Created and modified PCB schematics and layouts using EDA/CAD software.",
+  "Worked with Through-Hole Technology (THT) components and ensured proper component placement and routing.",
+  "Performed design checks and prepared PCB layouts for manufacturing and assembly.",
+  "Supported PCB testing and troubleshooting using Flying Probe Testing.",
+  "Collaborated with engineering and production teams to resolve design and manufacturing issues."
+]
+    }
+  ],
+  "education": [
+  {
+    "id": "1",
+    "institution": "GH Raisoni Institute of Engineering and Technology, Nagpur",
+    "degree": "Bachelor of Technology (BTech) in Electronics & Telecommunication Engineering",
+    "description": "Completed a Bachelor of Technology in Electronics & Telecommunication Engineering, developing a strong foundation in electronics, communication systems, problem-solving, and engineering principles. Gained hands-on experience with technical projects and analytical approaches that strengthened my ability to understand and solve complex engineering problems.",
+    "startDate": "Sept 2020",
+    "endDate": "July 2024"
+  },
+  {
+    "id": "2",
+    "institution": "Institute of Advanced Computing and Software Development, Pune",
+    "degree": "Diploma in Advanced Computing (CDAC)",
+    "description":  "Completed a Diploma in Advanced Computing (CDAC) with a focus on modern software development and advanced computing technologies. Developed practical skills in Java, JavaScript, web development, databases, software engineering, and full-stack application development through hands-on projects and industry-oriented training.",
+    "startDate": "Aug 2024",
+    "endDate": "Mar 2025"
+  }
+
+  ],
+  "Contact": [
+   
+  ]
+}
