@@ -171,31 +171,30 @@ className="mx-auto aspect-square overflow-hidden object-cover object-[center_30%
                   <CardDescription>{project.description}</CardDescription>
                 </CardContent>
                 <CardFooter>
-                  <div className="flex space-x-3">
-                    <Link
-  href={project.live_url}
-  target="_blank"
-  rel="noopener noreferrer"
-  prefetch={false}
->
-                      <Button size="sm">
-                        <GlobeIcon className="h-3 w-3 mr-2" />
-                        Live Demo
-                      </Button>
-                    </Link>
-                   <Link
-  href={project.code_repo_url}
-  target="_blank"
-  rel="noopener noreferrer"
-  prefetch={false}
->
-                      <Button size="sm" variant="outline">
-                        <GitHubLogoIcon className="h-3 w-3 mr-2" />
-                        Open Repository
-                      </Button>
-                    </Link>
-                  </div>
-                </CardFooter>
+  <div className="flex space-x-3">
+    <a
+      href={project.live_url}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <Button size="sm">
+        <GlobeIcon className="h-3 w-3 mr-2" />
+        Live Demo
+      </Button>
+    </a>
+
+    <a
+      href={project.code_repo_url}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <Button size="sm" variant="outline">
+        <GitHubLogoIcon className="h-3 w-3 mr-2" />
+        Open Repository
+      </Button>
+    </a>
+  </div>
+</CardFooter>
               </div>
             </Card>
           ))}
